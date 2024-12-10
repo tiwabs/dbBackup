@@ -1,0 +1,15 @@
+{
+  "name": "dbBackup",
+  "version": "1.0.0",
+  "description": "Back up your database",
+  "main": "index.js",
+  "scripts": {
+    "dump": "node index.js"
+  },
+  "author": "Tiwabs",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mysqldump": "^3.2.0"
+  }
+}
